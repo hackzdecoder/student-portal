@@ -11,6 +11,7 @@ const Dashboard = Loadable(lazy(() => import('pages/dashboard')));
 const MyAccount = Loadable(lazy(() => import('pages/my-accounts')));
 const MyAttendance = Loadable(lazy(() => import('pages/my-attendance')));
 const MyGrades = Loadable(lazy(() => import('pages/my-grades')));
+const Messaging = Loadable(lazy(() => import('../pages/messages')));
 
 
 // ==============================|| MAIN ROUTING ||============================== //
@@ -26,6 +27,10 @@ const MainRoutes = {
         {
             path: 'dashboard',
             element: <Dashboard />
+        },
+        {
+            path: 'messages',
+            element: <Messaging />
         },
         {
             path: 'my-account',

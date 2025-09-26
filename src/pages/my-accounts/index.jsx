@@ -39,13 +39,8 @@ export default function MyAccount() {
 
     return (
         <MainCard
-            title="My Account"
+            title="General Information"
             contentSX={{ p: 4 }}
-            sx={{
-                borderRadius: 3,
-                boxShadow: theme.customShadows.z1,
-                background: theme.palette.background.paper
-            }}
         >
             <Grid container spacing={4} alignItems="flex-start">
                 {/* Profile Section */}
