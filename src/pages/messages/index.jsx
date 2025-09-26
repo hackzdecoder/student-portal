@@ -63,6 +63,7 @@ export default function Messages() {
                                         sx={{
                                             borderRadius: 2,
                                             mb: 1,
+                                            cursor: 'pointer', // <-- Add this
                                             '&.Mui-selected': { bgcolor: 'primary.lighter' },
                                             '&:hover': { bgcolor: 'action.hover' },
                                             py: 1.5,
